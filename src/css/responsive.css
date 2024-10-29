@@ -1,0 +1,174 @@
+@media (min-width:1025px){
+    .hero_content-left{
+        margin-left: 100px;
+    }
+   
+}
+@media (max-width:1025px){
+   
+    .hero_content-left h1{
+        font-size:50px;
+    }
+    
+    .container1{
+        width: 90% !important;
+    }
+    .info_man{
+        right: 0 !important;
+        
+    }
+    .about_content2{
+        padding:  0 !important;
+     }
+     .about2_img{
+        height: 500px !important;
+        width: 500px !important;
+    padding-right: 10px !important;
+     }
+     .blog_img a{
+    
+        height: 220px !important;
+        width: 300px !important;
+    }
+    .search_menu input{
+    
+        width: 62% !important;
+        
+    }
+    .blog_item_img{
+        height: 320px;
+        width: 100%;
+    }
+    .instagram_row img {
+        width: 70px;
+    }
+    .post_img{
+        height: 300px;
+    }
+}
+
+
+@media (max-width:768px){
+
+  
+    .hero_content-right{
+        
+        justify-content: center;
+    }
+    .logo_column{
+        display: flex;
+        justify-content: space-between;
+        z-index: 2;
+    }
+    
+    .form_tittle h2{
+        font-size: 24px;
+        font-weight: 650;
+    }
+    .header-area li{
+      display: block;
+    
+    }
+    
+   
+   
+  
+ 
+    .toggle-icon{
+        display: block;
+        font-size: 40px;
+    color: white;
+    }
+   
+   
+    .solution_content_col{
+       margin-top: 50px;
+       border: 2px solid #10c98f;
+    }
+    .about_img{
+    
+        width: 100% !important;
+    }
+    .about_content{
+        margin-top: 50px ;
+    }
+    .info_man{
+        bottom: 0 !important;
+        
+    }
+    .about_content2{
+        padding: 0 0 50px 80px !important;
+        
+    
+    }
+    .blog{
+        margin: 30px 0;
+    }
+    .blog_img a{
+    
+        height: 400px !important;
+        width: 100% !important;
+    }
+    .search_menu input{
+    
+        width: 85% !important;
+        
+    }
+    .category a{
+        font-size: 16px;
+        
+    }
+    
+.instagram_row img {
+    width:200px;
+}
+.address_section{
+    
+    margin: 0 0 40px 0;
+}
+}
+@media (max-width:426px){
+    .blog_img a{
+    
+        height: 300px !important;
+        width: 100% !important;
+    }
+    .about_content{
+        padding: 0 10px !important;
+    }
+    .about_content2{
+        padding: 0 0 50px 10px !important;
+        
+    
+    }
+    .container1{
+        width: 95% !important;
+    }
+    .instagram_row img {
+        width: 96px;
+    }
+    .blog_item_img{
+        height: 250px;
+        
+    }
+    .likes_social_links{
+display: block;
+text-align: center;
+    }
+.likes{
+    display: flex;
+    justify-content: center;
+}
+.navigate_section{
+display: block;
+    }
+    .prevoius{
+        margin-top: 20px;
+    }
+    .search_menu input{
+    
+        width: 70% !important;
+        
+    }
+}
+    
