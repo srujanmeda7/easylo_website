@@ -131,6 +131,7 @@ margin: 10px 0;
     display: inline-block;
     background-color: rgb(75, 139, 196);
     padding: 30px 0;
+    height: 50px;
 }
 
 /* header css */
@@ -380,9 +381,71 @@ background-color: white;
  /*testimonial css*/
  .testimonial{
     background: #0F4332;
-    padding-bottom: 74px;
+    padding: 74px 0 50px 0 ;
 }
 
+.testimonial-caption p{
+    margin-top: -100px;
+    margin-left: 25px;
+    line-height: 1.6;
+    color: #d5ece5;
+    font-size: 21px;
+    font-weight: 500;
+    
+}
+.testimonial-founder{
+    margin: 30px 0 0 30px;
+}
+.founder_img{
+height: 70px;
+
+}
+.founder_img img{
+    height: 100%;
+    width: 100%;
+}
+.founder-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+.founder-text span{
+    font-size: 22px;
+    font-weight: 700;
+    color: #d5ece5;
+    margin-bottom: 4px;
+}
+.founder-text p{
+    color: white;
+    font-size: 13px;
+    
+}
+.carousel-control{
+    position: relative;
+}
+.slick-dots_out{
+    display: flex;
+    margin-top: -40px;
+}
+.slick-dots_out li{
+    display: inline;
+    list-style-type: none;
+}
+
+.slick-dots {
+    margin-left: 55px;
+    position: relative;
+}
+.slick-dots::before{
+    content: "";
+    position: absolute;
+    width: 44px;
+    height: 2px;
+    background: rgba(213, 236, 229, 0.2);
+    top: 12px;
+    right: 20px;
+}
 
 /*latesr_news*/
 .latest_news{

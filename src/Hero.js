@@ -26,18 +26,18 @@ function Hero() {
                         <br></br>
                         <select required="">
                           <option>Select Amount</option>
-                          <option>category1</option>
-                          <option>category2</option>
-                          <option>category3</option>
+                          <option value="category1">category1</option>
+                          <option value="category2">category2</option>
+                          <option value="category3">category3</option>
                         </select>
                         <br></br>
                         <label>MONTH</label>
                         <br></br>
                         <select>
                           <option>Select Amount</option>
-                          <option>category1</option>
-                          <option>category2</option>
-                          <option>category3</option>
+                          <option value="category1">category1</option>
+                          <option value="category2">category2</option>
+                          <option value="category3">category3</option>
                         </select>
                         <p>YOU HAVE TO PAY:<span>$0</span></p>
                         <a href='#'>APPLY NOW</a>
