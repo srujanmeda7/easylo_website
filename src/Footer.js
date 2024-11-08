@@ -2,7 +2,17 @@ import React, { useState } from 'react'
 import logo from './imgaes/logo2_footer.png.webp'
 
 function Footer() {
-    
+    const [inputValue,setinputValue]=useState("");
+    const[isemailvalid,setisemailvalid]=useState(false);
+    const handleemailChange=(e)=>{
+setinputValue(e.target.value);
+setisemailvalid(e.target.validity.valid);
+    }
+    const handleLinkClick=(event)=>{
+if(!isemailvalid){
+    event.preventDefault();  
+}
+    }
   return (
     <div>
     <div className='footer_wrapper'>
@@ -45,11 +55,12 @@ function Footer() {
                         <h4>Newsletter</h4>
                         <p>Subscribe newsletter to get updates.</p>
                   <div className='subscribe'>
-                  <input placeholder='Email your email' required type='email' />
-                  <span> <i class="bi bi-check-lg"></i></span><a href='#' >
+                  <input placeholder='Email your email' required type='email' onChange={handleemailChange} value={inputValue}/>
+                  <a href='#' onClick={handleLinkClick} >
                     
                   <i class="bi bi-send"></i>
                   </a>
+                  <span> <i class="bi bi-check-lg"></i></span>
                   </div> 
                     
                     <div className='footer_icon '>

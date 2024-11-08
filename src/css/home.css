@@ -513,15 +513,21 @@ width:70%;
     right: 32%;
     display: none;
 }
-.subscribe input:focus +span{
+.subscribe input:focus ~ span{
     display: block;
 }
-.subscribe input:invalid+span{
+
+.subscribe input:invalid ~ span{
     
     color: red;
 
 }
-.subscribe  input:valid+span{
+.subscribe a:focus +span{ 
+    
+    display: block;
+
+}
+.subscribe  input:valid ~span{
     
     color: green;
 }
@@ -531,6 +537,7 @@ width:70%;
     color: white;
     
 }
+
 .footer_icon{
     margin-top: 40px;
     width: 30%;
