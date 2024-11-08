@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from './imgaes/logo2_footer.png.webp'
 
 function Footer() {
+    
   return (
     <div>
     <div className='footer_wrapper'>
@@ -44,7 +45,9 @@ function Footer() {
                         <h4>Newsletter</h4>
                         <p>Subscribe newsletter to get updates.</p>
                   <div className='subscribe'>
-                  <input placeholder='    Email your email'/><a href='#'>
+                  <input placeholder='Email your email' required type='email' />
+                  <span> <i class="bi bi-check-lg"></i></span><a href='#' >
+                    
                   <i class="bi bi-send"></i>
                   </a>
                   </div> 

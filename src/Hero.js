@@ -24,7 +24,7 @@ function Hero() {
                       <div className='form_body'>
                       <label>AMOUNT YOU WANT</label>
                         <br></br>
-                        <select>
+                        <select required="">
                           <option>Select Amount</option>
                           <option>category1</option>
                           <option>category2</option>

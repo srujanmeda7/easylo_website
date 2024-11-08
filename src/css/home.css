@@ -436,11 +436,31 @@ margin-bottom: 15px;
     font-weight: 400;
 }
 .subscribe input{
-    padding: 18px 0;
+    padding: 18px 15px;
 width:70%;
     border:2px solid #10c98f;
     outline: 0;
     background-color: transparent;
+    position: relative;
+}
+.subscribe span{
+    position: absolute;
+    z-index: 3;
+    top: 35%;
+    right: 32%;
+    display: none;
+}
+.subscribe input:focus +span{
+    display: block;
+}
+.subscribe input:invalid+span{
+    
+    color: red;
+
+}
+.subscribe  input:valid+span{
+    
+    color: green;
 }
 .subscribe a{
     padding: 22px 35px;
