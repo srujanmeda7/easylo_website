@@ -65,7 +65,7 @@ transition: 0.5s;
 }
 .hero_content-right form{
     background-color: white;
-    padding: 50px 30px;
+    padding: 40px 35px 35px 35px;
 
     margin-top: 100px;
 position: relative;
@@ -97,11 +97,22 @@ right: 30%;
     width: 100%;
     height: 50px;
     font-size: 15px;
-    padding-left: 15px;
+    padding: 0;
+    border-radius: 0;
+    height: 45px;
+    border: 1px solid #c9d6cb;
+}
+
+.hero_content-right select option{
+    display: inline-block;
+    background-color: rgb(75, 139, 196);
+    
+    
+    
 }
 .hero_content-right label{
-    font-size: 12px;
-    margin: 30px 0  10px 0 ;
+    font-size: 10px;
+    margin: 30px 0  0 0 ;
 }
 .form_body p{
 font-size: 12px;
@@ -127,12 +138,8 @@ margin: 10px 0;
     text-align: center;
     margin-top: 20px;
 }
-.hero_content-right select option{
-    display: inline-block;
-    background-color: rgb(75, 139, 196);
-    padding: 30px 0;
-    height: 50px;
-}
+
+
 
 /* header css */
 .header-area{
@@ -140,6 +147,16 @@ margin: 10px 0;
     position: absolute;
      z-index: 3;
 padding: 10px ;
+transition: all 0.2s ease-in-out;
+
+ }
+ .fixed{
+    position: fixed;
+    top: -50px;
+    left: 0;
+    z-index: 1000;
+    background-color: #0F4332;
+    translate: 0 50px;
  }
  .logo_column{
     z-index: 3;

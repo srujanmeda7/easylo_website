@@ -1,15 +1,35 @@
 
 import { useNavigate } from 'react-router-dom'
 import logo from './imgaes/logo.png.webp'
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 function Header() {
   const [menuopen,setmenu]=useState(false);
   const [menu_icon,setmenu_icon]=useState(false);
   const navigate=useNavigate();
- 
+ const[isFixed,setIsFixed]=useState(false);
+
+ useEffect(() => {
+  const handleScroll = () => {
+    const scrollPercentage =
+      (window.scrollY / document.body.scrollHeight) * 100;
+
+    if (scrollPercentage > 15) {
+      setIsFixed(true);
+    } else {
+      setIsFixed(false);
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
+
   return (
     <>
-       <div className='header-area'>
+       <div className={`header-area ${isFixed ? "fixed" : ""}`}>
       <div className='container'>
         <div className='row'>
             <div className='col-lg-2 col-12 logo_column'>
