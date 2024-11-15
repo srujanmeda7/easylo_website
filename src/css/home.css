@@ -155,8 +155,8 @@ transition: all 0.2s ease-in-out;
     top: -50px;
     left: 0;
     z-index: 1000;
-    background-color: #0F4332;
-    translate: 0 50px;
+    background-color: #26be9f;
+    translate: 0 49px;
  }
  .logo_column{
     z-index: 3;
@@ -181,6 +181,8 @@ transition: all 0.2s ease-in-out;
  .mobile_menu{
     position: absolute;
     z-index: 2;
+    left: 0;
+    width: 100%;
  }
  .mobile_menu li{
     list-style-type: none;
@@ -196,18 +198,21 @@ transition: all 0.2s ease-in-out;
  .header-right{
     
     background-color: #0f4332;
-    translate: 0 -320px;
+   transform:  translateY(-400px);
     justify-content: start;
     transition: 0.5s;
     padding: 10px;
 }
 .open{
+
     background-color: #0f4332;
-    translate: 0 80px;
+  transform:   translateY(10px);
 transition: 0.2s;
 padding: 20px 10px 10px 10px;
+
 }
  .submenu{
+    width: 150px;
 position: absolute;
 display: block !important;
 padding: 10px ;
@@ -223,6 +228,7 @@ background-color: white;
     margin-top: 10px;
  }
  .submenu a{
+    
     color: #234821;
     font-size: 16px;
     transition: 0.3s;

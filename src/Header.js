@@ -32,8 +32,9 @@ function Header() {
        <div className={`header-area ${isFixed ? "fixed" : ""}`}>
       <div className='container'>
         <div className='row'>
+
+
             <div className='col-lg-2 col-12 logo_column'>
-            
                <div className='logo'>
                    <a href='#' onClick={()=>navigate("/")}>
                    <img src={
@@ -75,13 +76,16 @@ function Header() {
                     <li><a href='#' onClick={()=>navigate("/contact")}>Contact</a></li>
                     <li> <a href='#' onClick={()=>navigate("/apply_loan")}><button className='header-right-btn'>Apply For Loan</button></a> </li>
                 </ul>
-                
               </div>
+
+
                 </div>
                 </div>
-        </div>
-      
-        <div className='col-12 d-block d-lg-none mobile_menu'>
+                
+
+
+        
+                <div className=' d-block d-lg-none mobile_menu p-0'>
         <div className={menuopen? "header-right " :"open"} >
                 <ul >
                     <li><a href='#' onClick={()=>navigate("/")}>Home</a></li>
@@ -110,6 +114,9 @@ function Header() {
                 
               </div>
               </div>
+
+        </div>
+      
     </>
   )
 }
