@@ -1,14 +1,15 @@
 import React from 'react'
 import Header from './Header'
-import Hero_apply_loan from './Hero_apply_loan'
+
 import Footer from './Footer'
+import Hero_title from './Hero_title'
 
 function Apply_for_loan() {
   return (
     <div>
           <div className='hero-overlay'>
     <Header/>
-        <Hero_apply_loan/>
+        <Hero_title hero='Apply Now'/>
     </div>
     <div className='details_form'>
         <form>

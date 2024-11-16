@@ -1,14 +1,14 @@
 import React from 'react'
-import Hero_contact from './Hero_contact'
 import Header from './Header'
 import Footer from './Footer'
+import Hero_title from './Hero_title'
 
 function Contact() {
   return (
     <div>
        <div className='hero-overlay'>
     <Header/>
-        <Hero_contact/>
+        <Hero_title hero='Contact'/>
     </div>
     <div className='container1'>
       <div className='map_section'>

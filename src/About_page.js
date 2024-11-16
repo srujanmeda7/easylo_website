@@ -1,13 +1,14 @@
 import React from 'react'
 import Hero from './Hero'
 import Header from './Header'
-import Hero_about from './Hero_about'
+
 import About from './About'
 import Why_choose from './Why_choose'
 import About2 from './About2'
 import Testimonial from './Testimonial'
 import Latest_news from './Latest_news'
 import Footer from './Footer'
+import Hero_title from './Hero_title'
 
 
 function About_page() {
@@ -15,7 +16,7 @@ function About_page() {
     <div>
         <div className='hero-overlay'>
      <Header/>
-     <Hero_about/>
+     <Hero_title hero='About'/>
          </div>
          <About/>
          <Why_choose/>

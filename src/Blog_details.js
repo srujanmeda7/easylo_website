@@ -1,5 +1,4 @@
 import React from 'react'
-import Hero_blog_details from './Hero_blog_details'
 import Header from './Header'
 import Blog_right_sidebar from './Blog_right_sidebar'
 import post1 from './imgaes/single_blog_1.jpg.webp'
@@ -9,13 +8,14 @@ import comment1 from './imgaes/comment_1.png.webp'
 import comment2 from './imgaes/comment_2.png.webp'
 import comment3 from './imgaes/comment_3.png.webp'
 import Footer from './Footer'
+import Hero_title from './Hero_title'
 
 function Blog_details() {
   return (
     <div>
         <div className='hero-overlay'>
     <Header/>
-    <Hero_blog_details/>
+    <Hero_title hero='Blog Details'/>
         </div>
         <div className='blog_page_details'>
           <div className='container1'>

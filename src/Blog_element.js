@@ -1,12 +1,13 @@
 import React from 'react'
-import Hero_element from './Hero_element'
+import Hero_title from './Hero_title'
+import Header from './Header'
 
 function Blog_element() {
   return (
-    <div>
-    <Hero_element/>
-    
-</div>
+    <div className='hero-overlay'>
+    <Header/>
+    <Hero_title hero='Element'/>
+        </div>
   )
 }
 

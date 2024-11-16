@@ -1,12 +1,11 @@
 import React from 'react'
 
-
-function Hero_about() {
+function Hero_title({hero}) {
   return (
     <div className='hero_about_tittle'>
-    <h1 className=''>About us</h1>
+    <h1 >{hero}</h1>
         </div>
   )
 }
 
-export default Hero_about
+export default Hero_title
