@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import logo from './imgaes/logo.png.webp'
 import { useEffect, useRef, useState } from 'react';
 function Header() {
-  const [menuopen,setmenu]=useState(false);
+  const [menuopen,setmenu]=useState(true);
   const [menu_icon,setmenu_icon]=useState(false);
   const navigate=useNavigate();
  const[isFixed,setIsFixed]=useState(false);
@@ -66,11 +66,7 @@ function Header() {
                           Blog Details
                           </a>
                         </li>
-                        <li>
-                          <a href='#' onClick={()=>navigate("/element")}>
-                          Elements
-                          </a>
-                        </li>
+                    
                       </ul>
                     </li>
                     <li><a href='#' onClick={()=>navigate("/contact")}>Contact</a></li>
@@ -92,7 +88,7 @@ function Header() {
                     <li><a href='#' onClick={()=>navigate("/about")}>About</a></li>
                     <li><a href='#' onClick={()=>navigate("/services")}>Service</a></li>
                     <li><a href='#'>Blog</a>
-                      <ul className='submenu'>
+                      <ul className='submenu mobile_submenu'>
                         <li>
                             <a href='#' onClick={()=>navigate("/blog")}>Blog</a>
                         </li>
@@ -101,11 +97,7 @@ function Header() {
                           Blog Details
                           </a>
                         </li>
-                        <li>
-                          <a href='#' onClick={()=>navigate("/element")}>
-                          Elements
-                          </a>
-                        </li>
+                      
                       </ul>
                     </li>
                     <li><a href='#' onClick={()=>navigate("/contact")}>Contact</a></li>

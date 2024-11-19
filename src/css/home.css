@@ -221,6 +221,7 @@ transition:all 0.3s ease-out;
 visibility: hidden;
 opacity: 0;
 background-color: white;
+z-index: 2;
  }
  .submenu li{
     display: block;
@@ -811,6 +812,8 @@ border: 2px solid rgb(183, 177, 177);
     background-color: #10c98f;
     color: white;
 }
+
+
 /*blog_details*/
 .blog_page_details{
     padding: 100px 0;
@@ -1019,6 +1022,9 @@ transition: 0.3s;
     background-color: #10c98f;
     color: white;
 }
+
+
+
 /*contact css*/
 .map_section{
     background-color: #0F4332;
@@ -1069,6 +1075,9 @@ font-size: 12px;
     margin-top: 10px;
 
 }
+
+
+/*apply_for_loan*/
 .details_form{
     padding: 100px 350px;
 }
@@ -1114,3 +1123,7 @@ margin-top: 25px;
     background-color: white;
     color: #10c98f;
 }
+
+
+
+

@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './Header'
-
 import Footer from './Footer'
 import Hero_title from './Hero_title'
 
@@ -14,11 +13,11 @@ function Apply_for_loan() {
     <div className='details_form'>
         <form>
           <div className='row'>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
             <label>*LOAN AMOUNT($)</label><br/>
             <input placeholder='Enter Amount'/>
             </div>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
                 <label>*PURPOSE OF LOAN</label><br/>
                 <select>
                     <option>category1</option>
@@ -33,12 +32,12 @@ function Apply_for_loan() {
           <input type='radio' name='gender'/><label>FEMALE</label>
         </div>
         <div className='row'>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
                 <label>*FIRST NAME</label><br/>
                 <input placeholder='First Name'/>
                
             </div>
-            <div className='col'> 
+            <div className='col-12 col-md-6'> 
                 <label>*LAST NAME</label><br/>
             <input placeholder='Last Name'/></div>
         </div>
@@ -49,11 +48,11 @@ function Apply_for_loan() {
             <option>category1</option>
         </select>
         <div className='row'>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
                 <label>*EMIAL ADDERESS</label><br/>
                 <input placeholder='Email'/>
             </div>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
                 <label>*PHONE NUMBER</label><br/>
                 <input placeholder='Number'/>
             </div>
@@ -65,21 +64,21 @@ function Apply_for_loan() {
             <option>category1</option>
         </select>
         <div className='row'>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
                 <label>*FIRST NAME</label><br/>
                 <input placeholder='Enter name'/>
             </div>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
                 <label>*TOWN/CITY</label><br/>
                 <input placeholder='Enter city'/>
             </div>
         </div>
         <div className='row'>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
                 <label>*STREET</label><br/>
                 <input placeholder='Enter Street Address'/>
             </div>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
                 <label>*HOUSE NAME/NUMBER</label><br/>
                 <input placeholder='Enter House Name'/>
             </div>
@@ -91,21 +90,21 @@ function Apply_for_loan() {
             <option>category1</option>
         </select>
         <div className='row'>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
                 <label>*EMPLOYMENT INDUSTRY</label><br/>
                 <input placeholder='Enter INDUSTRY'/>
             </div>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
                 <label>*EMPLOYER NAME</label><br/>
                 <input placeholder='Enter name'/>
             </div>
         </div>
         <div className='row'>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
                 <label>*WORK PHONE NUMBER</label><br/>
                 <input placeholder='Phone Number'/>
             </div>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
                 <label>*MONTHLY INCOME($)</label><br/>
                 <input placeholder='Enter INCOME'/>
             </div>
